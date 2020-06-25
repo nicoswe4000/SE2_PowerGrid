@@ -52,5 +52,7 @@ public class ViewTest {
         String a = baos.toString();
         List<String> actual = Arrays.asList(a.split("\r\n"));
         Assert.assertEquals(expected, actual);
+
+        // Hello Github
     }
 }
